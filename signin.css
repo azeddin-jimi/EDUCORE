@@ -1,0 +1,144 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fefefe;
+    position: relative;
+    background: linear-gradient(45deg, rgb(96, 7, 173), rgb(247, 129, 26));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: rgb(163, 14, 36);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-H header {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(255, 136, 18);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input-f {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #2f2722;
+    transition: .4s;
+}
+.input .input-f:hover {
+    transform: translateY(-5px);
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:600;
+}
+
+#check {
+    margin-right: 5px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #040fb1;
+    font-size: 0.9rem;
+}
+
+.input-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-btn {
+    display: none;
+}
+
+.input-sub label {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(249, 150, 64), rgb(152, 70, 224));
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.input-sub label:hover {
+    background-color: rgb(255, 238, 222);
+    transform: translateY(3px);
+}
+
+
+.sign-up p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sign-up a {
+    color: #040fb1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(249, 122, 9);
+    border-bottom: 2px solid transparent;
+    transition: .7s;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+footer .btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+}
+footer .btn:hover {
+    background:linear-gradient(45deg, rgb(2, 2, 1), rgb(152, 70, 224));;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 1rem;
+    transition: .3s;
+}
